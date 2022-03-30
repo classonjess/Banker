@@ -1,0 +1,10 @@
+
+   function AllData(){
+  const ctx = React.useContext(UserContext);
+  return (
+    <>
+    <h5>All Data my Project</h5>
+    {JSON.stringify(ctx)}<br/>
+    </>
+  );
+  }
